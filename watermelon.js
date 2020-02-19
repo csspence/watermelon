@@ -23,6 +23,9 @@ divide(5) === false // 5 = 2 + 3
 divide(6) === true  // 6 = 2 + 4
 */
 
-function divide(weight){
-  //your code here
+const divide = (weight) => {
+  if(weight === 2) {
+    return false;
+  }
+  return (weight % 2 === 0 ? true : false);
 }
